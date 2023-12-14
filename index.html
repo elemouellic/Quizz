@@ -6,68 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quizz</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    <script defer src="js/script.js"></script>
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1 class="text-center">Template Quizz</h1>
+<h1 class="text-center">Template Quizz</h1>
 
+<div class="container mt-sm-5 my-1">
+    <div class="question ml-sm-5 pl-sm-5 pt-2 position-relative w-100">
+        <!-- ... (autres éléments HTML) ... -->
+        <div class="py-2 h5"><b>Ceci est une question du quizz?</b></div>
 
-    <form action="">
-        <div class="container mt-sm-5 my-1">
-
-            <div class="question ml-sm-5 pl-sm-5 pt-2 position-relative w-100">
-                <div class="position-absolute top-0 end-0"><img class="star_icon" src="img/Star_icon_stylized.svg"
-                        alt="" srcset=""><img class="star_icon" src="img/Star_icon_stylized.svg" alt="" srcset=""></div>
-                <div class="py-2 h5"><b>Ceci est une question du quizz?</b></div>
-
-                <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
-                    <label class="options">Réponse 1
-                        <input type="radio" name="radio" id="res1">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="options">Réponse 2
-                        <input type="radio" name="radio" id="res2">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="options">Réponse 3
-                        <input type="radio" name="radio" id="res3">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="options">Réponse 4
-                        <input type="radio" name="radio" id="res4">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="options">Réponse 5
-                        <input type="radio" name="radio" id="res5">
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </div>
-            <div class="d-flex align-items-center pt-3 justify-content-end">
-                <div class="ml-auto mr-sm-5">
-                    <button id="back" class="btn btn-primary">Retour</button>
-                </div>
-                <div class="ml-auto mr-sm-5">
-                    <button id="submit" class="btn btn-success">Valider</button>
-                </div>
-            </div>
+        <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+            <!-- Les options seront injectées ici par le JavaScript -->
         </div>
-    </form>
+    </div>
+
+    <div class="d-flex align-items-center pt-3 justify-content-end">
+        <div id="prev">
+            <button class="btn btn-primary">Retour</button>
+        </div>
+        <div class="ml-auto mr-sm-5">
+            <button class="btn btn-success">Valider</button>
+        </div>
+    </div>
+</div>
 
 
-
-
-
-
+<script src="js/script.js"></script>
 </body>
+</html>
 
 </html>

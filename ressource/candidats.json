@@ -1,0 +1,171 @@
+{"session": [
+  {
+      "id": "01-01-2023",
+      "niveau": "easy",
+      "candidats": [
+        {
+          "id": "01",
+          "name": "Antoine",
+          "lastname": "Griezman"
+        },
+        {
+          "id": "02",
+          "name": "Paul",
+          "lastname": "Pogba"
+        },
+        {
+          "id": "03",
+          "name": "Florian",
+          "lastname": "Thauvin"
+        },
+        {
+          "id": "04",
+          "name": "Hugo",
+          "lastname": "Lloris"
+        },
+        {
+          "id": "05",
+          "name": "Kylian",
+          "lastname": "Mbappé"
+        },
+        {
+          "id": "06",
+          "name": "Benjamin",
+          "lastname": "Pavard"
+        },
+        {
+          "id": "07",
+          "name": "N'golo",
+          "lastname": "Kanté"
+        },
+        {
+          "id": "08",
+          "name": "Olivier",
+          "lastname": "Giroud"
+        },
+        {
+          "id": "09",
+          "name": "Corentin",
+          "lastname": "Tolisso"
+        },
+        {
+          "id": "10",
+          "name": "Samuel",
+          "lastname": "Umtiti"
+        }
+      ]
+    },
+  {
+    "id": "01-02-2023",
+    "niveau": "medium",
+    "candidats": [
+      {
+        "id": "01",
+        "name": "Bixente",
+        "lastname": "Lizarazu"
+      },
+      {
+        "id": "02",
+        "name": "Lilian",
+        "lastname": "Thuram"
+      },
+      {
+        "id": "03",
+        "name": "Fabien",
+        "lastname": "Barthez"
+      },
+      {
+        "id": "04",
+        "name": "Zinedine",
+        "lastname": "Zidane"
+      },
+      {
+        "id": "05",
+        "name": "Youri",
+        "lastname": "Djorkaeff"
+      },
+      {
+        "id": "06",
+        "name": "Emmanuel",
+        "lastname": "Petit"
+      },
+      {
+        "id": "07",
+        "name": "Laurent",
+        "lastname": "Blanc"
+      },
+      {
+        "id": "08",
+        "name": "Marcel",
+        "lastname": "Desailly"
+      },
+      {
+        "id": "09",
+        "name": "Vincent",
+        "lastname": "Candela"
+      },
+      {
+        "id": "10",
+        "name": "Christian",
+        "lastname": "Karembeu"
+      }
+    ]
+  },
+  {
+    "id": "01-03-2023",
+    "niveau": "hard",
+    "candidats": [
+      {
+        "id": "01",
+        "name": "Jean",
+        "lastname": "Tigana"
+      },
+      {
+        "id": "02",
+        "name": "Michel",
+        "lastname": "Platini"
+      },
+      {
+        "id": "03",
+        "name": "Manuel",
+        "lastname": "Amoros"
+      },
+      {
+        "id": "04",
+        "name": "Joël",
+        "lastname": "Bats"
+      },
+      {
+        "id": "05",
+        "name": "Maxime",
+        "lastname": "Bossis"
+      },
+      {
+        "id": "06",
+        "name": "Luis",
+        "lastname": "Fernandez"
+      },
+      {
+        "id": "07",
+        "name": "Alain",
+        "lastname": "Giresse"
+      },
+      {
+        "id": "08",
+        "name": "Patrick",
+        "lastname": "Battiston"
+      },
+      {
+        "id": "09",
+        "name": "Bruno",
+        "lastname": "Bellone"
+      },
+      {
+        "id": "10",
+        "name": "Daniel",
+        "lastname": "Bravo"
+      }
+    ]
+  }
+]
+}
