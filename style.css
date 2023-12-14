@@ -70,6 +70,7 @@
     background-color: #555;
     color: #ddd;
     border: 1px solid #ddd;
+    padding: 5px 25px;
 }
 .btn-primary:hover{
     background-color: #21bf73;
