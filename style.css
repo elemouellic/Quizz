@@ -90,3 +90,16 @@
         word-spacing: 2px;
     } 
 }
+
+
+#start-quiz {
+    display: block;
+}
+
+.container {
+    display: none;
+}
+
+#result-container {
+    display: none;
+}
