@@ -1,0 +1,231 @@
+{"session": [
+  {
+      "id": "01-01-2023",
+      "niveau": "easy",
+      "candidats": [
+        {
+          "id": "01",
+          "name": "Antoine",
+          "lastname": "Griezman",
+          "birthdate": "01/01/2000",
+          "password": "01012000"
+        },
+        {
+          "id": "02",
+          "name": "Paul",
+          "lastname": "Pogba",
+          "birthdate": "01/02/2000",
+          "password": "01022000"
+        },
+        {
+          "id": "03",
+          "name": "Florian",
+          "lastname": "Thauvin",
+          "birthdate": "01/03/2000",
+          "password": "01032000"
+        },
+        {
+          "id": "04",
+          "name": "Hugo",
+          "lastname": "Lloris",
+          "birthdate": "01/04/2000",
+          "password": "01042000"
+        },
+        {
+          "id": "05",
+          "name": "Kylian",
+          "lastname": "Mbappé",
+          "birthdate": "01/05/2000",
+          "password": "01052000"
+        },
+        {
+          "id": "06",
+          "name": "Benjamin",
+          "lastname": "Pavard",
+          "birthdate": "01/06/2000",
+          "password": "01062000"
+        },
+        {
+          "id": "07",
+          "name": "N'golo",
+          "lastname": "Kanté",
+          "birthdate": "01/07/2000",
+          "password": "01072000"
+        },
+        {
+          "id": "08",
+          "name": "Olivier",
+          "lastname": "Giroud",
+          "birthdate": "01/08/2000",
+          "password": "01082000"
+        },
+        {
+          "id": "09",
+          "name": "Corentin",
+          "lastname": "Tolisso",
+          "birthdate": "01/09/2000",
+          "password": "01092000"
+        },
+        {
+          "id": "10",
+          "name": "Samuel",
+          "lastname": "Umtiti",
+          "birthdate": "01/10/2000",
+          "password": "01102000"
+        }
+      ]
+    },
+  {
+    "id": "01-02-2023",
+    "niveau": "medium",
+    "candidats": [
+      {
+        "id": "01",
+        "name": "Bixente",
+        "lastname": "Lizarazu",
+        "birthdate": "01/01/1980",
+        "password": "01011980"
+      },
+      {
+        "id": "02",
+        "name": "Lilian",
+        "lastname": "Thuram",
+        "birthdate": "01/02/1980",
+        "password": "01021980"
+      },
+      {
+        "id": "03",
+        "name": "Fabien",
+        "lastname": "Barthez",
+        "birthdate": "01/03/1980",
+        "password": "01031980"
+      },
+      {
+        "id": "04",
+        "name": "Zinedine",
+        "lastname": "Zidane",
+        "birthdate": "01/04/1980",
+        "password": "01041980"
+      },
+      {
+        "id": "05",
+        "name": "Youri",
+        "lastname": "Djorkaeff",
+        "birthdate": "01/05/1980",
+        "password": "01051980"
+      },
+      {
+        "id": "06",
+        "name": "Emmanuel",
+        "lastname": "Petit",
+        "birthdate": "01/06/1980",
+        "password": "01061980"
+      },
+      {
+        "id": "07",
+        "name": "Laurent",
+        "lastname": "Blanc",
+        "birthdate": "01/07/1980",
+        "password": "01071980"
+      },
+      {
+        "id": "08",
+        "name": "Marcel",
+        "lastname": "Desailly",
+        "birthdate": "01/08/1980",
+        "password": "01081980"
+      },
+      {
+        "id": "09",
+        "name": "Vincent",
+        "lastname": "Candela",
+        "birthdate": "01/09/1980",
+        "password": "01091980"
+      },
+      {
+        "id": "10",
+        "name": "Christian",
+        "lastname": "Karembeu",
+        "birthdate": "01/10/1980",
+        "password": "01101980"
+      }
+    ]
+  },
+  {
+    "id": "01-03-2023",
+    "niveau": "hard",
+    "candidats": [
+      {
+        "id": "01",
+        "name": "Jean",
+        "lastname": "Tigana",
+        "birthdate": "01/01/1960",
+        "password": "01011960"
+      },
+      {
+        "id": "02",
+        "name": "Michel",
+        "lastname": "Platini",
+        "birthdate": "01/02/1960",
+        "password": "01021960"
+      },
+      {
+        "id": "03",
+        "name": "Manuel",
+        "lastname": "Amoros",
+        "birthdate": "01/03/1960",
+        "password": "01031960"
+      },
+      {
+        "id": "04",
+        "name": "Joël",
+        "lastname": "Bats",
+        "birthdate": "01/04/1960",
+        "password": "01041960"
+      },
+      {
+        "id": "05",
+        "name": "Maxime",
+        "lastname": "Bossis",
+        "birthdate": "01/05/1960",
+        "password": "01051960"
+      },
+      {
+        "id": "06",
+        "name": "Luis",
+        "lastname": "Fernandez",
+        "birthdate": "01/06/1960",
+        "password": "01061960"
+      },
+      {
+        "id": "07",
+        "name": "Alain",
+        "lastname": "Giresse",
+        "birthdate": "01/07/1960",
+        "password": "01071960"
+      },
+      {
+        "id": "08",
+        "name": "Patrick",
+        "lastname": "Battiston",
+        "birthdate": "01/08/1960",
+        "password": "01081960"
+      },
+      {
+        "id": "09",
+        "name": "Bruno",
+        "lastname": "Bellone",
+        "birthdate": "01/09/1960",
+        "password": "01091960"
+      },
+      {
+        "id": "10",
+        "name": "Daniel",
+        "lastname": "Bravo",
+        "birthdate": "01/10/1960",
+        "password": "01101960"
+      }
+    ]
+  }
+]
+}
