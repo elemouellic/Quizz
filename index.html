@@ -39,10 +39,19 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
     <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+
+    
     <h1 class="text-center">Template Quizz</h1>
+
+
+    <div id="start-quiz" class="text-center">
+        <button class="btn btn-primary" id="start-button">Commencer le quizz</button>
+    </div>
 
     <div class="container mt-sm-5 my-1">
         <div class="question ml-sm-5 pl-sm-5 pt-2 position-relative w-100">
@@ -96,25 +105,30 @@
         </div>
     </div>
 
-    <div class="container mt-sm-5 my-1">
+    <div id="result-container" class="container mt-sm-5 my-1">
 
         <div class="question ml-sm-5 pl-sm-5 pt-2 position-relative w-100">
 
-            <div class="py-2 h3 text-center"><span>Votre résultat : </span><span class="fs-3 fw-bold text-warning">35
+            <div class="py-2 h3 text-center"><span>Votre résultat : </span><span class="fs-3 fw-bold text-warning">0
                     points</span></div>
 
-            <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between"><span
-                    class="d-inline-flex justify-content-start">Nombre de questions totales : </span><span
-                    class="d-inline-flex questions_number justify-content-end">30</span></div>
-            <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between"><span
-                    class="d-inline-flex justify-content-start">Réponses valides : </span><span
-                    class="questions_number">20</span></div>
-            <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between"><span
-                    class="d-inline-flex justify-content-start">Réponses fausses : </span><span
-                    class="questions_number">5</span></div>
-            <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between"><span
-                    class="d-inline-flex justify-content-start">Non répondues : </span><span
-                    class="questions_number">5</span></div>
+                    <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between">
+                        <span class="d-inline-flex justify-content-start">Nombre de questions totales : </span>
+                        <span class="questions_number total">0</span>
+                    </div>
+                    <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between">
+                        <span class="d-inline-flex justify-content-start">Réponses valides : </span>
+                        <span class="questions_number valid">00</span>
+                    </div>
+                    <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between">
+                        <span class="d-inline-flex justify-content-start">Réponses fausses : </span>
+                        <span class="questions_number incorrect">0</span>
+                    </div>
+                    <div class="py-2 fs-5 text-center w-100 d-flex justify-content-between">
+                        <span class="d-inline-flex justify-content-start">Non répondues : </span>
+                        <span class="questions_number unanswered">0</span>
+                    </div>
+                    
 
 
 
